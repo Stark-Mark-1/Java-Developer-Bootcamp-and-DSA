@@ -23,6 +23,18 @@ public class Array2d{
             System.out.println("Invalid Index value");
         }
     }
+    public void accessTheArray(int row, int col){
+        try{
+            if(arr[row][col]==Integer.MIN_VALUE){
+                System.out.println("The cell is empty");
+            }else{
+                System.out.println(arr[row][col]);
+            }
+        }catch (ArrayIndexOutOfBoundsException e) {
+            System.out.println("Invalid Index");
+        }
+    }
+    
    // public static void main(String[] args) {
     //     Scanner sc = new Scanner(System.in);
     //     int [][] int2dArray = new int[2][2];

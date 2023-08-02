@@ -1,3 +1,4 @@
+package DSA.Arrays;
 import java.util.*;
 public class value {
     public static void main(String[] args) {

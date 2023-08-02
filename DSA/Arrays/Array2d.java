@@ -1,3 +1,4 @@
+package DSA.Arrays;
 import java.util.*;
 
 public class Array2d{

@@ -1,4 +1,5 @@
 package DSA.Arrays;
+
 import java.util.*;
 public class arrayCodingExcercise {
     public static void main(String[] args) {
@@ -62,5 +63,9 @@ public class arrayCodingExcercise {
         // }else{
         //     System.out.println(missing);
         // }
+        // Q5. Write a function which takes integer array as a parameter and returns a new integer array with unique elements. (remove duplicates)
+        int arr[]={1,1,22,22,3,3,4,5,5,6,6,7};
+        int n=arr.length;
+        
     }
 }
